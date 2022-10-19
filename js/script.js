@@ -13,9 +13,4 @@ let coloreUser = colore;
 document.getElementById('color').innerHTML = coloreUser;
 console.log(coloreUser);
 
-
-
-/*let età = parseInt(prompt('Quanti anni hai?'));
-let annoNascita = 2022 - età;
-document.getElementById('year').innerHTML = annoNascita;
-console.log(annoNascita)*/
+document.getElementById('result').innerHTML = nome + cognome + colore + `22`;
